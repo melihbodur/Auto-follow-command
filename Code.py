@@ -7,13 +7,13 @@ Original file is located at
     https://colab.research.google.com/drive/1ytoafPlnv4kuNfbRLXygDDxKzK2TxZF4
 """
 
-browser=webdriver.Chrome("chromedriver yolu") 
+browser=webdriver.Chrome("chromedriver way") 
 browser.get("https://www.instagram.com/")
 time.sleep(2)
 browser.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[1]/div/label/input")\
 .send_keys("Mail or ID")
 browser.find_element_by_xpath("//*[@id='loginForm']/div/div[2]/div/label/input")\
-.send_keys("Şifre")
+.send_keys("Key")
 time.sleep(1)
 browser.find_element_by_xpath("//*[@id='loginForm']/div/div[3]")\
 .click()
