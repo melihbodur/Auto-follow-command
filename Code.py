@@ -7,6 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1ytoafPlnv4kuNfbRLXygDDxKzK2TxZF4
 """
 
+import time
+from selenium import webdriver
+
 browser=webdriver.Chrome("chromedriver way") 
 browser.get("https://www.instagram.com/")
 time.sleep(2)
